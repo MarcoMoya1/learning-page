@@ -1,1 +1,23 @@
 body {background-color: grey;} 
+
+.rcd-btn {
+    color: antiquewhite;
+    background-color: blue;
+    font-size: 25px;
+    border-radius: 20px;
+    
+}
+
+.ply-btn {
+    color: antiquewhite;
+    background-color: rgb(4, 178, 85);
+    font-size: 25px;
+    border-radius: 20px;
+}
+
+.del-btn {
+    color: antiquewhite;
+    background-color: crimson;
+    font-size: 25px;
+    border-radius: 20px;
+}
