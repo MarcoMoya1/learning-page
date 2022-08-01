@@ -1,5 +1,10 @@
 body {background-color: grey;} 
 
+h1 {
+    color: antiquewhite;
+    font-style: italic;
+}
+
 .rcd-btn {
     color: antiquewhite;
     background-color: blue;
