@@ -26,3 +26,26 @@ h1 {
     font-size: 25px;
     border-radius: 20px;
 }
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(22, 230, 171);
+}
+
+.square2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(77, 139, 197);
+}
+.square3 {
+    width: 100px;
+    height: 100px;
+    background-color:rgb(22, 230, 171);
+}
+
+p {
+    display: inline-block;
+    justify-content: space-between;
+
+}
