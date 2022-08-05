@@ -5,29 +5,31 @@ h1 {
     font-style: italic;
 }
 
-.rcd-btn {
+#rcdBtn {
     color: antiquewhite;
     background-color: blue;
     font-size: 25px;
     border-radius: 20px;
+    font-family: fantasy;
     
 }
 
-.ply-btn {
+#plyBtn {
     color: antiquewhite;
     background-color: rgb(4, 178, 85);
     font-size: 25px;
     border-radius: 20px;
+    font-family: monospace;
 }
 
-.del-btn {
+#delBtn {
     color: antiquewhite;
     background-color: crimson;
     font-size: 25px;
     border-radius: 20px;
 }
 
-.square {
+#square {
     width: 100px;
     height: 100px;
     background-color: rgb(22, 230, 171);
