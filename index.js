@@ -23,6 +23,17 @@ myBtn.addEventListener("click", () => myBtn.style.backgroundColor = 'rgb(77, 139
     // const square = document.getElementsById('square');
     // square.addEventListener("click", () => square.style.backgroundColor = 'rgb(77, 139, 197)')
 
+    const newBtn = document.getElementById('new');
+    newBtn.addEventListener("click", () => newBtn.style.backgroundColor = 'gold');
+
+
+
+
+
+
+
+
+
 console.log('Howdy');
 
 let person = {
