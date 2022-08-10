@@ -1,4 +1,4 @@
-body {background-color: grey;} 
+body {background-color: rgb(143, 89, 89);} 
 
 h1 {
     color: antiquewhite;
@@ -60,4 +60,24 @@ p {
     padding: 10px;
     margin: 10px;
     font-family: cursive;
+}
+
+form {
+    font-style: italic;
+    font-size: 20px;
+    display:flex;
+    padding:10px;
+    margin: 10px;
+    border: 5px;
+
+}
+
+#anotherButton {
+    background-color: teal;
+    color: whitesmoke;
+    border-radius: 5px;
+    padding: 10px;
+    font-family:monospace;
+    font-weight: 25px;
+    
 }

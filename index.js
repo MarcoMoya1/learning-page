@@ -26,7 +26,9 @@ myBtn.addEventListener("click", () => myBtn.style.backgroundColor = 'rgb(77, 139
     const newBtn = document.getElementById('new');
     newBtn.addEventListener("click", () => newBtn.style.backgroundColor = 'gold');
 
-
+    const butn = document.getElementById('anotherButton');
+    butn.addEventListener("click", () => butn.style.backgroundColor = 'blue');
+    butn.addEventListener("dblclick", () => butn.style.backgroundColor = 'teal');
 
 
 
