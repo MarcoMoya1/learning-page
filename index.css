@@ -7,7 +7,7 @@ h1 {
 
 #rcdBtn {
     color: antiquewhite;
-    background-color: blue;
+    background-color: teal;
     font-size: 25px;
     border-radius: 20px;
     font-family: fantasy;
@@ -16,7 +16,7 @@ h1 {
 
 #plyBtn {
     color: antiquewhite;
-    background-color: rgb(4, 178, 85);
+    background-color:teal;
     font-size: 25px;
     border-radius: 20px;
     font-family: monospace;
@@ -24,7 +24,7 @@ h1 {
 
 #delBtn {
     color: antiquewhite;
-    background-color: crimson;
+    background-color: teal;
     font-size: 25px;
     border-radius: 20px;
 }
@@ -56,7 +56,7 @@ p {
     color: burlywood;
     border-radius: 20px;
     border: 5px black bold;
-    background-color: brown;
+    background-color: teal;
     padding: 10px;
     margin: 10px;
     font-family: cursive;
@@ -65,10 +65,10 @@ p {
 form {
     font-style: italic;
     font-size: 20px;
-    display:flex;
-    padding:10px;
+    /* display:flex; */
+    /* padding:10px;
     margin: 10px;
-    border: 5px;
+    border: 5px; */
 
 }
 
@@ -76,8 +76,9 @@ form {
     background-color: teal;
     color: whitesmoke;
     border-radius: 5px;
-    padding: 10px;
+    padding: 5px;
     font-family:monospace;
-    font-weight: 25px;
+    font-size: 22px;
     
 }
+
