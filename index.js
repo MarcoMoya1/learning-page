@@ -64,3 +64,9 @@ let nums= [
 ];
 
 console.log(nums[2]);
+
+const firstString = "Hello";
+
+const secondString = "welcome to devTools!";
+
+console.log(firstString+ " " + secondString);
