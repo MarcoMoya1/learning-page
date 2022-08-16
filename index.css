@@ -97,3 +97,14 @@ form {
     
 }
 
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color: burlywood;
+    background-color: rgb(23, 23, 157);
+    font-size: 20px;
+}
