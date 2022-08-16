@@ -1,6 +1,5 @@
 console.log('Howdy Marcus!');
 
-
 const myBtn = document.getElementById('myBtn');
 
 // console.log(myBtn);
@@ -30,13 +29,6 @@ myBtn.addEventListener("click", () => myBtn.style.backgroundColor = 'rgb(77, 139
     butn.addEventListener("click", () => butn.style.backgroundColor = 'blue');
     butn.addEventListener("dblclick", () => butn.style.backgroundColor = 'teal');
    
-
-
-
-
-
-
-
 console.log('Howdy');
 
 let person = {
@@ -70,3 +62,11 @@ const firstString = "Hello";
 const secondString = "welcome to devTools!";
 
 console.log(firstString+ " " + secondString);
+
+
+const personTwo = "Morgan";
+
+console.log(firstString+ " " + personTwo);
+
+console.log(person.address.state);
+console.log(personTwo+ ' is also from ' +person.address.state);
