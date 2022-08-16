@@ -97,6 +97,17 @@ form {
     
 }
 
+#hover {
+    color: rebeccapurple;
+    font-size: 30px;
+
+}
+
+div a {
+    background-color: cadetblue;
+    font-family: fantasy;
+}
+
 footer div {
     float: right;
     line-height: 1.5;

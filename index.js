@@ -70,3 +70,6 @@ console.log(firstString+ " " + personTwo);
 
 console.log(person.address.state);
 console.log(personTwo+ ' is also from ' +person.address.state);
+
+const hoverEvent = document.getElementById('hover');
+hoverEvent.addEventListener("onmouseover", () => hoverEvent.display = "none");
