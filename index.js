@@ -28,8 +28,25 @@ myBtn.addEventListener("click", () => myBtn.style.backgroundColor = 'rgb(77, 139
     const butn = document.getElementById('anotherButton');
     butn.addEventListener("click", () => butn.style.backgroundColor = 'blue');
     butn.addEventListener("dblclick", () => butn.style.backgroundColor = 'teal');
-   
-console.log('Howdy');
+
+
+    // adding a button increment function here 
+    const incrementCount = document.getElementById("increment-count");
+    const totalCount = document.getElementById("total-count");
+    var count = 0;
+    incrementCount.innerHTML = count; 
+
+    const handleIncrement = () => {
+        count++;
+        incrementCount.innerHTML = count;
+    };
+
+    incrementCount.addEventListener("click", handleIncrement);
+    // button increment done and working 
+
+
+
+     console.log('Howdy');
 
 let person = {
     firstName : "Marco",
@@ -80,3 +97,4 @@ console.log(person.firstName+ ", " +personTwo+ " and "+ personThree+ " are from 
 // still needs work to get the hover effect to work 
 const hoverEvent = document.getElementById('hover');
 hoverEvent.addEventListener("onmouseover", () => hoverEvent.display = "none");
+
