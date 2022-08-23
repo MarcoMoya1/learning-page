@@ -97,4 +97,3 @@ console.log(person.firstName+ ", " +personTwo+ " and "+ personThree+ " are from 
 // still needs work to get the hover effect to work 
 const hoverEvent = document.getElementById('hover');
 hoverEvent.addEventListener("onmouseover", () => hoverEvent.display = "none");
-

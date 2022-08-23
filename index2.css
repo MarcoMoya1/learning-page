@@ -6,3 +6,11 @@ h1{
     color: cornflowerblue;
 }
 
+nav {
+    font-size: 20px;
+}
+
+#headingLine{
+    font-style: italic;
+    text-decoration-line: underline;
+}
