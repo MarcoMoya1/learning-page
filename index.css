@@ -98,9 +98,25 @@ form {
 }
 
 #hover {
-    color:darkkhaki;
-    font-size: 30px;
+    background: transparent;
+    box-sizing: border-box;
+    border-radius: 0.6rem;
+    align-self: center;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 20px;
+    padding: 20px 40px;
+    text-align: center;
+    color: aliceblue;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid aqua;
 
+}
+button:hover {
+    color: aqua;
+    box-shadow: 3px 3px 20px #03e9f4,
+    3px 2px 20px #03e9f4;
 }
 
 div a {
