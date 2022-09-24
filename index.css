@@ -110,13 +110,13 @@ form {
     color: aliceblue;
     font-weight: bold;
     cursor: pointer;
-    border: 2px solid aqua;
+    border: 2px solid rgb(157, 0, 255);
 
 }
 button:hover {
-    color: aqua;
-    box-shadow: 3px 3px 20px #03e9f4,
-    3px 2px 20px #03e9f4;
+    color:blueviolet;
+    box-shadow: 3px 3px 20px  rgb(157, 0, 255),
+    3px 2px 20px rgb(157, 0, 255);
 }
 
 div a {
