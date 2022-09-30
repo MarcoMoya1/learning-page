@@ -92,7 +92,7 @@ const personThree = "Mikey";
 
 console.log(person.firstName+ ", " +personTwo+ " and "+ personThree+ " are from " +person.address.state);
 
-
+console.log(typeof personTwo);
 
 // still needs work to get the hover effect to work 
 const hoverEvent = document.getElementById('hover');
